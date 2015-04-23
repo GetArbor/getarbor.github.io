@@ -1,0 +1,10 @@
+# Site settings
+title: Dispensary Bank Accounts
+email: contact@getarbor.com
+description: > # this means to ignore newlines until "baseurl:"
+  Marijuana Dispensary Legal Bank Accounts provided by Arbor
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://getarbor.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
