@@ -19,3 +19,21 @@
 /* pages */
 @import "pages/index";
 @import "pages/signup";
+
+
+#howitworks {
+  @include features-section;
+
+  .header {
+    border-top: 1px solid #E6E6E8;
+    padding-top: 55px;
+    padding-bottom: 30px;
+  }
+
+  .onboarding-step {
+    .step {
+      padding-bottom: 10px;
+    }
+  }
+  padding-bottom: 55px;
+}
