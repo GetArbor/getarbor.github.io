@@ -34,6 +34,33 @@
     .step {
       padding-bottom: 10px;
     }
+    p {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #6C7279;
+    }
   }
   padding-bottom: 55px;
+}
+
+.numberCircle {
+  border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    position: absolute;
+    left: -36px;
+
+    font: 32px;
+}
+
+.step {
+  position: relative;
 }
